@@ -1,0 +1,26 @@
+{
+  "name": "ejercicio_pelis_nodejspug",
+  "version": "1.0.0",
+  "description": "App de pelis haciendo Server Render con Express + Pug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaniuOp/Ejercicio_Pelis_NodejsPug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaniuOp/Ejercicio_Pelis_NodejsPug/issues"
+  },
+  "homepage": "https://github.com/TaniuOp/Ejercicio_Pelis_NodejsPug#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.6",
+    "pug": "^3.0.2"
+  }
+}

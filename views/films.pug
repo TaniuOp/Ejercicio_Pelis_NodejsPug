@@ -1,0 +1,14 @@
+doctype html
+html
+   head
+      title="Movie detail"
+   body
+        h3 Detalle de peli 
+        section  
+            article 
+                h2 Film title #{films.Title}
+                p year: #{films.Year} 
+                p country: #{films.Country}
+                p descripcion: #{films.description}
+                img(src=films.Poster)
+
